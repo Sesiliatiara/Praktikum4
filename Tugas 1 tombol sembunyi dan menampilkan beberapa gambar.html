@@ -1,0 +1,32 @@
+<HTML>
+    <HEAD>
+        <SCRIPT src="js/jquery-3.6.0.min.js"></SCRIPT>
+        <SCRIPT type="text/javascript">
+            $(document).ready(function() {
+                $(".sembunyi").click(function() {
+                    $("#foto").hide("slow")
+                });
+                $(".tampil").click(function() {
+                    $("#foto").show("slow")
+                });
+            });
+            $(document).ready(function() {
+                $(".sembunyi1").click(function() {
+                    $("#foto1").hide("slow")
+                });
+                $(".tampil1").click(function() {
+                    $("#foto1").show("slow")
+                });
+            });
+        </SCRIPT>
+    </HEAD>
+    <BODY>
+        <H1>Tombol Sembunyikan dan Tampilkan Beberapa Gambar</H1>
+        <button class="sembunyi">Sembunyikan</button>
+        <button class="tampil">Tampilkan</button>
+        <p><img id="foto" src="https://www.upnjatim.ac.id/wp-content/uploads/2019/12/logoupnbaru-300x294-min.png"></p>
+        <button class="sembunyi1">Sembunyikan</button>
+        <button class="tampil1">Tampilkan</button>
+        <p><img id="foto1" src="https://fasilkom.upnjatim.ac.id/wp-content/uploads/2020/06/Logo-Himasifo-300x300.png"></p>
+    </BODY>
+</HTML>

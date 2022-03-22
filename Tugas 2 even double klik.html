@@ -1,0 +1,50 @@
+<HTML>
+    <HEAD>
+        <TITLE>Tugas 2 Even Double Klik</TITLE>
+        <SCRIPT src="js/jquery-3.6.0.min.js"></SCRIPT>
+        <SCRIPT type="text/javascript">
+            $(document).ready(function() {
+                $('.tombol1').dblclick(function() {
+                    $(this).css({
+                        "backgroundColor": "blue" 
+                    });
+                });
+                $('.tombol2').dblclick(function() {
+                    $(this).css({
+                        "backgroundColor": "purple" 
+                    });
+                });
+                $('.tombol3').dblclick(function() {
+                    $(this).css({
+                        "backgroundColor": "red" 
+                    });
+                });
+                $('.tombol4').dblclick(function() {
+                    $(this).css({
+                        "backgroundColor": "pink" 
+                    });
+                });
+            });
+        </SCRIPT>
+            <STYLE>
+                .tombol1, .tombol2, .tombol3, .tombol4 {
+                    width: 70px;
+                    height: 70px;
+                    background-color: yellow;
+                    padding: 32px 32px;
+                    border: transparent;
+                    border-radius: 4px;
+                    margin: 5px;
+                    cursor: pointer;
+                }
+            </STYLE>
+    </HEAD>
+    <BODY>
+        <h2>Even Double Klik</h2>
+        <p>Klik 2 kali pada setiap kotak untuk mengubah warna</p>
+        <button class="tombol1"></button> &nbsp;
+        <button class="tombol2"></button> &nbsp;
+        <button class="tombol3"></button> &nbsp;
+        <button class="tombol4"></button> &nbsp;
+    </BODY>
+</HTML>
